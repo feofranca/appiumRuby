@@ -1,0 +1,19 @@
+caps:
+ deviceName: ce021712a4800e0d05 #id device
+ platformName: Android
+ app: File.dirname(__FILE__), '/../features/apk_test/test_ifood.apk
+ appPackage: com.fooddelivery_pro
+ appActivity: MainActivity
+ autoGrantPermissions: "true"
+ autoAcceptAlerts: "true"
+ newCommandTimeout: "3000"
+ skipServerInstallation: "true"
+ skipDeviceInitialization: "true"
+ disableWindowAnimation: "true"
+ ignoreUnimportantViews: "true"
+ disableAndroidWatchers: "true"
+ uiautomator2ServerLaunchTimeout: "60000"
+ uiautomator2ServerInstallTimeout: "120000"
+ nativeInstrumentsLib: "false"
+appium_lib:
+ wait_interval: 1

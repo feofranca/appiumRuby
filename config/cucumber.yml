@@ -1,0 +1,5 @@
+# config/cucumber.yml
+##YAML Template
+---
+DEV: AMBIENTE='dev'
+PRD: AMBIENTE='prd'
