@@ -30,7 +30,7 @@ end
   end
 
 def verificacaoCodigo
-for i in 0..4
+for i in 0..3
  find(@btn_1).click
 end
   find(@btn_submit).click
